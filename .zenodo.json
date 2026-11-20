@@ -1,0 +1,11 @@
+{
+  "title": "Code and per-seed results for: Zero-Shot Low-Rank Compression of Tabular Neural Networks via Marchenko-Pastur Tail-Quantile Spectral Thresholding",
+  "upload_type": "software",
+  "description": "Notebooks with saved outputs, per-seed results of the bias-correction ablation, and the figure script accompanying the manuscript on zero-shot low-rank compression of tabular neural networks via Marchenko-Pastur tail-quantile spectral thresholding.",
+  "creators": [
+    {"name": "Punagi, Rajendriya Wigar", "affiliation": "Department of Statistics, Universitas Diponegoro, Semarang, Indonesia"},
+    {"name": "Yasin, Hasbi", "affiliation": "Department of Statistics, Universitas Diponegoro, Semarang, Indonesia"}
+  ],
+  "license": "MIT",
+  "keywords": ["low-rank compression", "singular value decomposition", "random matrix theory", "Marchenko-Pastur", "tabular neural networks"]
+}

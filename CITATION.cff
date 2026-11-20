@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Code and per-seed results for: Zero-Shot Low-Rank Compression of Tabular Neural Networks via Marchenko-Pastur Tail-Quantile Spectral Thresholding"
+authors:
+  - family-names: Punagi
+    given-names: Rajendriya Wigar
+    affiliation: "Department of Statistics, Universitas Diponegoro, Semarang, Indonesia"
+  - family-names: Yasin
+    given-names: Hasbi
+    affiliation: "Department of Statistics, Universitas Diponegoro, Semarang, Indonesia"
+license: MIT
+repository-code: "https://github.com/KuroriShizuri/kompresi-tabular-mp"
