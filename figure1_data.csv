@@ -1,0 +1,41 @@
+dataset,regime,code,method,speedup_bs1024,dacc_pp,ci95_low,ci95_high
+Adult Income,Standard,01,Proposed (zero-shot),2.37,+0.10,-0.10,+0.29
+Adult Income,Standard,04,"EVR, same budget",2.29,+0.18,-0.03,+0.40
+Adult Income,Standard,06,Uniform rank,2.08,-0.16,-0.43,+0.12
+Adult Income,Standard,07,Magnitude pruning,1.01,-0.04,-0.33,+0.24
+Adult Income,Standard,18,Small model from scratch,2.67,+0.18,-0.11,+0.46
+Adult Income,Regularized,01,Proposed (zero-shot),3.80,-0.36,-0.96,+0.25
+Adult Income,Regularized,04,"EVR, same budget",3.99,-0.18,-0.54,+0.19
+Adult Income,Regularized,06,Uniform rank,3.91,-0.56,-1.51,+0.39
+Adult Income,Regularized,07,Magnitude pruning,1.04,-1.64,-2.79,-0.49
+Adult Income,Regularized,18,Small model from scratch,6.56,+0.13,-0.00,+0.27
+Bank Marketing,Standard,01,Proposed (zero-shot),2.05,-0.78,-1.02,-0.53
+Bank Marketing,Standard,04,"EVR, same budget",2.11,-0.10,-0.32,+0.13
+Bank Marketing,Standard,06,Uniform rank,2.04,-4.06,-6.31,-1.80
+Bank Marketing,Standard,07,Magnitude pruning,0.99,-0.58,-0.94,-0.21
+Bank Marketing,Standard,18,Small model from scratch,2.48,+0.07,-0.15,+0.29
+Bank Marketing,Regularized,01,Proposed (zero-shot),2.15,-0.47,-0.89,-0.05
+Bank Marketing,Regularized,04,"EVR, same budget",1.74,-0.15,-0.31,+0.01
+Bank Marketing,Regularized,06,Uniform rank,2.03,-2.80,-4.04,-1.56
+Bank Marketing,Regularized,07,Magnitude pruning,1.00,-0.10,-0.41,+0.21
+Bank Marketing,Regularized,18,Small model from scratch,2.55,+0.03,-0.27,+0.34
+Credit Default,Standard,01,Proposed (zero-shot),3.07,-2.80,-3.48,-2.11
+Credit Default,Standard,04,"EVR, same budget",3.15,-1.98,-2.75,-1.20
+Credit Default,Standard,06,Uniform rank,2.94,-3.02,-3.70,-2.33
+Credit Default,Standard,07,Magnitude pruning,1.01,+0.10,-0.97,+1.17
+Credit Default,Standard,18,Small model from scratch,4.38,+0.14,-0.33,+0.61
+Credit Default,Regularized,01,Proposed (zero-shot),2.87,-1.93,-3.34,-0.52
+Credit Default,Regularized,04,"EVR, same budget",3.03,-1.33,-2.08,-0.58
+Credit Default,Regularized,06,Uniform rank,2.69,-2.35,-3.73,-0.97
+Credit Default,Regularized,07,Magnitude pruning,0.96,-1.45,-3.49,+0.59
+Credit Default,Regularized,18,Small model from scratch,3.72,-0.02,-0.15,+0.11
+HIGGS (98k),Standard,01,Proposed (zero-shot),1.45,-3.99,-4.83,-3.16
+HIGGS (98k),Standard,04,"EVR, same budget",1.38,-0.16,-0.36,+0.04
+HIGGS (98k),Standard,06,Uniform rank,1.38,-6.82,-9.11,-4.53
+HIGGS (98k),Standard,07,Magnitude pruning,0.98,-0.04,-0.51,+0.42
+HIGGS (98k),Standard,18,Small model from scratch,1.54,+0.17,-0.32,+0.66
+HIGGS (98k),Regularized,01,Proposed (zero-shot),1.57,-1.07,-1.48,-0.67
+HIGGS (98k),Regularized,04,"EVR, same budget",1.57,-0.19,-0.59,+0.22
+HIGGS (98k),Regularized,06,Uniform rank,1.59,-3.28,-3.70,-2.85
+HIGGS (98k),Regularized,07,Magnitude pruning,1.01,+0.03,-0.11,+0.17
+HIGGS (98k),Regularized,18,Small model from scratch,1.72,+0.29,-0.14,+0.73
