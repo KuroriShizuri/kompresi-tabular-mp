@@ -7,12 +7,12 @@ Affiliation: Department of Statistics, Universitas Diponegoro, Semarang, Indones
 
 ## Contents
 
-- `rancanganpublikasi.ipynb`: Kaggle notebook with the main experiment. Cell 8 runs 4 datasets (Adult Income, Bank Marketing, Credit Default (Taiwan), HIGGS 98k) x 5 seeds x 2 baseline regimes (standard, regularized) for the baseline plus 18 compressed variants, and prints the accuracy, parameter, speedup and TOST tables used in the paper. Cells 1-6 are earlier development versions kept with their outputs.
-- `ablasi-pruning.ipynb`: Kaggle notebook for the pre-activation bias-correction ablation. The models are retrained, so its baseline differs slightly from the baseline in the main tables.
+- `rancanganpublikasi.ipynb`: Kaggle notebook with the main experiment. The code cell with index 8 (zero-based; the 9th cell in the Kaggle interface) runs 4 datasets (Adult Income, Bank Marketing, Credit Default (Taiwan), HIGGS 98k) x 5 seeds x 2 baseline regimes (standard, regularized) for the baseline plus 18 compressed variants, and prints the accuracy, parameter, speedup and TOST tables used in the paper. Of the other code cells, only those with index 4 and 6 have saved outputs.
+- `ablasi-pruning.ipynb`: Kaggle notebook for the bias-correction ablation (pre-activation and post-ReLU variants against the bias-free method). The models are retrained, so its baseline differs slightly from the baseline in the main tables. Labels in the notebook outputs and CSV files are in Indonesian; the CSV column `p_mcnemar` holds per-seed McNemar p-values and is not used in the paper.
 - `ablasi_bias_per_seed.csv`: per-seed records of the bias-correction ablation.
 - `ablasi_bias_selisih.csv`: paired differences against the bias-free variant.
 - `figure1.py`: builds Figure 1 from `figure1_data.csv`. Run `python figure1.py --out Figure1.png`. Use `--no-jitter` to plot the exact speedups without horizontal offsets.
-- `figure1_data.csv`: speedup (batch size 1024, seed 42, one thread), accuracy change (pp, mean of five seeds) and 95% CI, copied from the cell 8 output of `rancanganpublikasi.ipynb`.
+- `figure1_data.csv`: speedup (batch size 1024, seed 42, one thread), accuracy change (pp, mean of five seeds) and 95% CI, copied from the output of the cell with index 8 of `rancanganpublikasi.ipynb`.
 - `Figure1.png`: Figure 1 as used in the paper. Proposed, EVR, uniform-rank, magnitude-pruning and small-model markers are shifted horizontally by fixed amounts of at most 3% of the axis width, identical in every panel, so that overlapping markers stay visible. Data values are unchanged.
 
 ## How to run
